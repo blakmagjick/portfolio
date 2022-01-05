@@ -41,7 +41,7 @@ hr {
     border-color: rgb(108, 108, 108);
 }
 
-img {
+.profpic {
     float: right;
     width: 100px;
     padding: 5px;
@@ -53,8 +53,17 @@ img {
     border-color: rgb(108, 108, 108);
 }
 
+.cert {
+    float: right;
+    width: 400px;
+}
+
+#tint {
+    color: #a22f2d;
+}
+
 a {
-    color: #9c3d3d;
+    color: #7f7f7f;
     font-weight: bolder;
     text-decoration: none;
 }
