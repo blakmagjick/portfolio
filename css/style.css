@@ -1,89 +1,184 @@
 body {
-    font-family: 'Dosis', sans-serif;
-    color: white;
-    background-color: rgb(74, 74, 74);
-    margin: 0 50px 50px 50px;
-    font-size: 110%;
+  font-family: "Dosis", sans-serif;
+  color: white;
+  background-color: #242728;
+  margin: 0 50px 50px 50px;
+  font-size: 110%;
 }
 
 header {
-    text-align: center;
-    background-color: rgb(74, 74, 74);
-    position: sticky;
-    padding-top: 20px;
-    margin-bottom: 10px;
-    top: 0;
+  text-align: center;
+  background-color: #242728;
+  position: sticky;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  top: 0;
 }
 
-nav {
-    background-color:rgb(108, 108, 108);
-    align-items: center;
-    font-size: 20px;
-    font-weight: bolder;
-    padding-top: 3px;
-}
-
-.active {
-    text-decoration: none;
-    color: white;
+#quote {
+  align-items: center;
+  font-size: 17px;
 }
 
 h1 {
-    font-weight: bold;
-    margin: 10px 0 10px 0;
+  font-size: 55px;
+  color: #c9623c;
+  margin: 10px 0 10px 0;
+  font-family: "Rock Salt", cursive;
 }
 
-h2, h3 {
-    color: #000000;
+h2,
+h3 {
+  font-family: "Rock Salt", cursive;
+  font-weight: bold;
+  color: #d17c5c;
+  margin: 0;
 }
 
 hr {
-    border-color: rgb(108, 108, 108);
+  border-color: rgb(108, 108, 108);
 }
 
 #profpic {
-    float: right;
-    width: 100px;
-    padding: 5px;
-    border-radius: 50%;
-    margin-right: 50px;
-    margin-top: 10px;
-    border-style: solid;
-    border-width: 3px;
-    border-color: rgb(108, 108, 108);
+  float: right;
+  width: 125px;
+  border-radius: 50%;
+  margin-right: 50px;
+  margin-top: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(108, 108, 108);
+}
+
+#aboutme {
+  width: 70%;
+}
+
+#aboutme2 {
+  padding-right: 25px;
+}
+
+#skills {
+  width: 30%;
+  padding-left: 15px;
+  font-family: "Rock Salt", cursive;
+  font-weight: bold;
+  font-size: 15px;
+  color: #d17c5c;
+}
+
+#projects {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+article {
+  width: 30%;
+  padding-top: 0;
+  /* margin-left: 5px;
+  margin-right: 5px; */
+}
+
+article img {
+  width: 275px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(108, 108, 108);
+  border-radius: 30px;
+}
+
+.projectpic {
+  width: 250px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(108, 108, 108);
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+#cert {
+  border-radius: 30px;
+}
+
+#skills {
+  width: 70%;
+  padding-left: 15px;
+  font-family: "Rock Salt", cursive;
+  font-weight: bold;
+  font-size: 15px;
+  color: #d17c5c;
+}
+
+.projecttitle {
+  font-family: "Rock Salt", cursive;
+  color: #dc9a82;
+}
+
+#projectnav {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
 }
 
 a {
-    color: #7f7f7f;
-    font-weight: bolder;
-    text-decoration: none;
+  color: #7f7f7f;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.active {
+  text-decoration: none;
+  color: white;
 }
 
 a:hover {
-    color: rgb(187, 187, 187);
+  color: rgb(187, 187, 187);
 }
 
-#tint {
-    color: #a22f2d;
+.tint {
+  color: #d17c5c;
+  font-family: "Rock Salt", cursive;
 }
 
-p {
-    word-spacing: 2px;
-    line-height: 23px;
+form {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  /* max-width: 350px; */
 }
 
-.button {
-    background-color: #555555;
+.projectinfo {
+  padding-left: 15px;
+}
+
+form input,
+form textarea {
+  font-family: "Dosis", sans-serif;
+  background-color: #bebebe;
+  color: black;
+  margin: 5px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+}
+
+form button {
+  font-family: "Dosis", sans-serif;
+  width: 25%;
+  background: #d17c5c;
+  color: white;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  margin-top: 5px;
+  margin-left: 5px;
 }
 
 footer {
-    text-align: center;
-    font-size: 20px;
-    background-color:rgb(108, 108, 108);
-    padding-top: 3px;
-    padding-bottom: 3px;
-}  
-
-form {
-    padding-bottom: 15px;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
