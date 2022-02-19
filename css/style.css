@@ -58,6 +58,34 @@ hr {
   padding-right: 25px;
 }
 
+.drkbl {
+  color: rgb(86, 156, 214);
+}
+
+.medbl {
+  color: rgb(79, 193, 255);
+}
+
+.ltbl {
+  color: rgb(156, 220, 254);
+}
+
+.orag {
+  color: rgb(206, 145, 120);
+}
+
+.purp {
+  color: rgb(218, 112, 214);
+}
+
+.dkyl {
+  color: rgb(255, 215, 0);
+}
+
+.ltyl {
+  color: rgb(220, 220, 170);
+}
+
 #skills {
   width: 30%;
   padding-left: 15px;
